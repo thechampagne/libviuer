@@ -1,0 +1,19 @@
+[package]
+name = "viuer"
+version = "0.1.0"
+description = "A library for displaying images in the terminal"
+authors = ["XXIV"]
+homepage = "https://github.com/thechampagne/libviuer"
+repository = "https://github.com/thechampagne/libviuer"
+readme = "README.md"
+license = "MIT"
+edition = "2021"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[lib]
+name = "viuer"
+crate-type =["cdylib","staticlib"]
+
+[dependencies]
+viuer = "0.7.1"
